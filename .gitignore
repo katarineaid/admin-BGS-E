@@ -1,1 +1,4 @@
 node_modules
+client/dist/index.html
+client/dist/index_bundle.js
+.idea

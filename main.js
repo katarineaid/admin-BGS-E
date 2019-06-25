@@ -2,6 +2,9 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
+const run_app = require("./back-server/bin/www");
+const run_pres = require("./client/server/server");
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -9,15 +12,12 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
-    }
+    width: 1600,
+    height: 1200
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadURL("http://localhost:9000/");
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
