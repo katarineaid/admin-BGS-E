@@ -1,0 +1,28 @@
+[
+  {
+    "name": "dataSource",
+    "alias": "Источники данных",
+    "children": [
+      {
+        "name": "localSource",
+        "alias": "Локальные источники",
+        "children": []
+      },
+      {
+        "name": "dataBase",
+        "alias": "Базы данных",
+        "children": []
+      },
+      {
+        "name": "services",
+        "alias": "Сервисы",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "plugins",
+    "alias": "Плагины",
+    "children": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:3857"
+    }
+  },
+  "metadata": {
+    "idField": "OBJECTID",
+    "geometryType": "Polygon",
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "alias": "OBJECTID",
+        "type": "esriFieldTypeOID"
+      }
+    ]
+  },
+  "features": []
+}
