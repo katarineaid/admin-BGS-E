@@ -43,7 +43,7 @@
     "clsx": "^1.0.4",
     "cookie-parser": "^1.4.4",
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-cors": "0.0.3",
     "http": "0.0.0",
     "path": "^0.12.7",
